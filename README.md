@@ -31,7 +31,7 @@ Linux / macOS: Modifica temporariamente os atributos do terminal (termios.h e un
 
 🎮 Mecânicas do JogoO ambiente reage dinamicamente a cada ação do jogador (movimentação ou ataque).Elementos do Mapa e Símbolos ASCIIÍconeSignificadoComportamento^ v < >JogadorO caractere muda indicando a direção do último movimento/olhar.*ParedeBloqueia a movimentação do jogador e dos monstros.#EspinhoArmadilha fatal. Pisar aqui faz o jogador perder uma vida imediatamente.kCaixaObstáculo destrutível utilizando a ação de ataque (o).OBotãoGatilho que altera o mapa (abre passagens ou invoca inimigos).DPorta FechadaBloqueia o avanço. Consome 1 Chave ao interagir para abrir.@ChaveItem coletável necessário para abrir portas.LEscadaPonto de transição que avança o jogador para a próxima fase.
 
-nteligência Artificial (IA) dos Inimigos
+Inteligência Artificial (IA) dos Inimigos
 Os monstros comportam-se de 3 formas distintas através da função move_monsters():
 
 X (Monstro Tipo 1): Movimentação completamente aleatória pelo mapa.
